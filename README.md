@@ -1,3 +1,3 @@
-Foto undate
+Foto update
 Fix Error
 
