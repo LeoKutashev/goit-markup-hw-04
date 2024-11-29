@@ -49,10 +49,11 @@ a {
 button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: white;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 button:hover {
   color: white;
@@ -93,14 +94,13 @@ header p {
 }
 
 .s3 h3 {
+  text-transform: capitalize;
   text-align: left;
 }
 .s3 p {
   text-align: left;
+  font-size: 16px;
 }
-.s3 li {
-}
-
 footer {
   background-color: #2e2f42;
 }
