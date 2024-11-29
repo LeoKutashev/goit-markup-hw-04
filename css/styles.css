@@ -48,6 +48,7 @@ p {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #434455;
 }
 a {
@@ -88,31 +89,36 @@ section {
 }
 header {
   padding: 24px 156px;
-  width: 1440px;
-  height: 72px;
 }
 header address {
+  padding-left: 332px;
   display: inline;
   width: 261px;
   height: 24px;
 }
 header nav {
-  margin-right: 332px;
   display: inline;
 }
 header ul {
   display: inline;
 }
 header li {
+  text-align: left;
   padding: 0;
   margin-right: 40px;
 }
-
 header p {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+}
+.top {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .hero {
   text-align: center;
@@ -126,24 +132,43 @@ header p {
   width: 264px;
   height: 104px;
 }
+.s1 p {
+  text-align: left;
+}
 .s2 {
   background-color: #f4f4fd;
 }
-.images {
+.s2 img {
+  margin-bottom: 32px;
+}
+.s2 li {
   margin-right: 24px;
   display: inline-block;
   width: 264px;
   height: 380px;
   background-color: white;
 }
-.portfolio {
-  margin-right: 24px;
-  display: inline-block;
-  text-align: center;
-  width: 264px;
-  height: 380px;
-  background-color: white;
+
+.s3 img {
+  margin-bottom: 32px;
 }
+.s3 h3 {
+  text-align: left;
+  padding-left: 16px;
+}
+.s3 p {
+  text-align: left;
+  padding-left: 16px;
+}
+.s3 li {
+  display: inline-block;
+  width: 360px;
+  height: 420px;
+  margin-right: 24px;
+  margin-bottom: 48px;
+  display: inline-block;
+}
+
 footer {
   padding: 100px 156px;
   background-color: #2e2f42;
