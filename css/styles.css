@@ -93,21 +93,21 @@ header p {
 .color {
   color: #2e2f42;
 }
-.s2 {
+.s2-divide {
   background-color: #f4f4fd;
 }
 
-.s2 li {
+.s2-divide li {
   background-color: #ffffff;
 }
 .s3-divide .h2-main {
   text-transform: capitalize;
 }
-.s3 h3 {
+.s3-divide h3 {
   text-transform: capitalize;
   text-align: left;
 }
-.s3 p {
+.s3-divide p {
   text-align: left;
   font-size: 16px;
 }
