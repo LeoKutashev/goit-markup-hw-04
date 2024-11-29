@@ -96,11 +96,25 @@ header p {
 .s2-divide {
   background-color: #f4f4fd;
 }
-
+.s2-divide .h2-main {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
 .s2-divide li {
   background-color: #ffffff;
 }
+.s3-divide {
+}
 .s3-divide .h2-main {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
 }
 .s3-divide h3 {
@@ -115,6 +129,11 @@ footer {
   background-color: #2e2f42;
 }
 .color {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 .logo {
