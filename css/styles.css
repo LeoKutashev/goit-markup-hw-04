@@ -71,6 +71,12 @@ header p {
 .hover-text:focus {
   color: #404bbf;
 }
+.contact-us:hover {
+  color: #404bbf;
+}
+.contact-us:focus {
+  color: #404bbf;
+}
 .address-font {
   font-style: normal;
 }
