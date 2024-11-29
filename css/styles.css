@@ -71,6 +71,13 @@ header p {
 .hover-text:focus {
   color: #404bbf;
 }
+.contact-us {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 .contact-us:hover {
   color: #404bbf;
 }
@@ -90,8 +97,24 @@ header p {
 .hero {
   background-color: #2e2f42;
 }
+.hero .h1-main {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: white;
+}
 .color {
   color: #2e2f42;
+}
+.s1-divide .h2-main {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 .s2-divide {
   background-color: #f4f4fd;
@@ -107,8 +130,7 @@ header p {
 .s2-divide li {
   background-color: #ffffff;
 }
-.s3-divide {
-}
+
 .s3-divide .h2-main {
   font-weight: 700;
   font-size: 36px;
