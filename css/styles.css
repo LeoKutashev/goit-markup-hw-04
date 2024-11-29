@@ -1,7 +1,5 @@
 body {
   font-family: "Roboto", sans-serif;
-  padding: 0;
-  margin: 0;
   color: #434455;
   background-color: #ffffff;
 }
@@ -53,7 +51,6 @@ button {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
-
   color: white;
   background-color: #4d5ae5;
 }
@@ -65,12 +62,17 @@ button:focus {
   color: white;
   background-color: #404bbf;
 }
-
 header p {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+}
+.hover-text:hover {
+  color: #404bbf;
+}
+.hover-text:focus {
+  color: #404bbf;
 }
 .top {
   font-weight: 500;
@@ -112,7 +114,7 @@ footer {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: black;
+  color: #4d5ae5;
 }
 footer .logo {
   color: #ffffff;
