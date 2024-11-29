@@ -112,6 +112,21 @@ header p {
   text-align: center;
   color: white;
 }
+.advantages h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #2e2f42;
+}
+.advantages p {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #434455;
+}
 .color {
   color: #2e2f42;
 }
@@ -126,6 +141,9 @@ header p {
 .s-second-divide {
   background-color: #f4f4fd;
 }
+.s-second-divide li {
+  background-color: #ffffff;
+}
 .s-second-divide .h-second-main {
   font-weight: 700;
   font-size: 36px;
@@ -137,7 +155,6 @@ header p {
 .s-third-divide li {
   background-color: #ffffff;
 }
-
 .s-third-divide .h-second-main {
   font-weight: 700;
   font-size: 36px;
@@ -163,7 +180,7 @@ footer {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -172,7 +189,7 @@ footer {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 footer .color {
   color: #ffffff;
