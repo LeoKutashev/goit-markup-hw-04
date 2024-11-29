@@ -27,9 +27,6 @@ h3 {
   text-align: center;
   color: #2e2f42;
 }
-li {
-  display: inline-block;
-}
 p {
   font-size: 16px;
   line-height: 150%;
@@ -42,7 +39,6 @@ a {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  text-decoration: none;
   font-style: normal;
   color: #434455;
 }
