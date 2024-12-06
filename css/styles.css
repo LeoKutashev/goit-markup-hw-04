@@ -128,7 +128,7 @@ header .nav-list {
   display: flex;
   gap: 40px;
 }
-header .nav-list-subparts {
+header .navigation {
   padding: 24px 0;
 }
 header .contact-list {
