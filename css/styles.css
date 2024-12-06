@@ -275,10 +275,12 @@ li .color {
 .s-third-divide {
   padding: 120px 0px;
 }
-.s-third-divide ul {
+.s-third-divide .container {
+  border: 1px solid #e7e9fc;
+}
+.s-third-divide .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-
   row-gap: 48px;
   column-gap: 24px;
 }
@@ -300,6 +302,7 @@ li .color {
 .s-third-divide h3 {
   text-transform: capitalize;
   text-align: left;
+  margin-bottom: 8px;
 }
 .s-third-divide p {
   text-align: left;
