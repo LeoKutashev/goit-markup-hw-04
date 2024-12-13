@@ -157,6 +157,15 @@ button:focus {
 }
 .hero {
   padding: 188px 0px;
+
+  background: no-repeat;
+  background-size: cover;
+
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office1.jpg);
   background-color: #2e2f42;
 }
 .hero-title {
@@ -194,6 +203,30 @@ button:focus {
   background-color: #f4f4fd;
   padding: 120px 0px;
 }
+.svg-social-media-list {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.svg-social-media-block {
+  background-color: #4d5ae5;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.svg-social-media {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  fill: #f4f4fd;
+}
+.svg-social-media-action .svg-social-media-block:hover {
+  background-color: #404bbf;
+}
+.svg-social-media-action .svg-social-media-block:focus {
+  background-color: #404bbf;
+}
 .our-team-title {
   margin-bottom: 72px;
 }
@@ -204,9 +237,16 @@ button:focus {
 .our-team-list-element {
   width: calc((100% - (24px * 3)) / 3);
   background-color: #ffffff;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+  border-radius: 0 0 4px 4px;
 }
 .our-team-text-container {
   padding: 32px 16px;
+}
+.our-team-element-description {
+  margin-bottom: 8px;
 }
 .portfolio {
   padding: 120px 0px;
@@ -242,6 +282,24 @@ footer {
 }
 .footer .logo-color {
   color: #f4f4fd;
+}
+.footer-elements {
+  display: flex;
+  gap: 120px;
+  align-items: top;
+}
+.footer-social-media-tag {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.footer .svg-social-media-list {
+  gap: 24px;
+  display: flex;
 }
 .footer-paragraph {
   display: block;
