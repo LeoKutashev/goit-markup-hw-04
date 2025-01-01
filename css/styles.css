@@ -250,19 +250,10 @@ button:focus {
   gap: 24px;
 }
 .svg-social-media-block {
-  background-color: #4d5ae5;
-  height: 40px;
   width: 40px;
-  border-radius: 50%;
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 250ms;
-  transition-property: background-color;
+  height: 40px;
 }
 .svg-social-media {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   fill: #f4f4fd;
 }
 .svg-social-media-action {
@@ -273,20 +264,16 @@ button:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.svg-social-media-action .svg-social-media-block:hover {
-  background-color: #404bbf;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-social-media-action:hover {
   background-color: #404bbf;
 }
 
-.svg-social-media-action .svg-social-media-block:focus {
-  background-color: #404bbf;
-}
 .svg-social-media-action:focus {
   background-color: #404bbf;
 }
+
 .our-team-title {
   margin-bottom: 72px;
 }
@@ -403,17 +390,7 @@ button:focus {
   gap: 16px;
   display: flex;
 }
-.footer .svg-social-media-action .svg-social-media-block {
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 250ms;
-  transition-property: background-color;
-}
-.footer .svg-social-media-action .svg-social-media-block:hover {
-  background-color: #31d0aa;
-}
-.footer .svg-social-media-action .svg-social-media-block:focus {
-  background-color: #31d0aa;
-}
+
 .footer-paragraph {
   display: block;
   width: 264px;
